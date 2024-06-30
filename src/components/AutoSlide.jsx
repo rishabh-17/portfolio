@@ -12,15 +12,15 @@ const Carousel = ({ items }) => {
   }, [items.length]);
 
   return (
-    <div className="relative w-full h-64 overflow-hidden">
+    <div className="relative w-full h-fit sm:h-64 overflow-hidden">
       <div
         className="flex transition-transform duration-1000"
         style={{ transform: `translateX(-${currentIndex * 100}%)` }}
       >
         {items.map((item, index) => (
           <div key={index} className="w-full flex-shrink-0">
-            <div className="grid grid-cols-3 gap-3 text-white">
-              <div className="flex flex-col gap-1 mt-3 justify-center items-center border-r border-gray-600">
+            <div className="grid grid-cols-1 sm:grid-cols-3  gap-3 text-white">
+              <div className="flex flex-col gap-1 mt-3 justify-center items-center border-0 sm:border-r border-gray-600">
                 <img src={item.image} className="w-16 h-16" alt="logo" />
                 <h3 className="text-2xl font-bold gradient-text">
                   {item.name}

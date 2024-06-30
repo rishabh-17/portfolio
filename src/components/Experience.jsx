@@ -7,8 +7,8 @@ import { FaGraduationCap } from "react-icons/fa6";
 
 export default function Experience() {
   return (
-    <div className="section m-3">
-      <div className="bg-[#121416] rounded-xl h-[330px] md:h-[287px] xl:h-[330px] border-2 border-[#28292b] my-3">
+    <div className="section my-3">
+      <div className="bg-[#121416] rounded-xl h-[600px] sm:h-[287px] xl:h-[330px] border-2 border-[#28292b]">
         <div className="flex flex-col items-center justify-start h-full p-0">
           <div className="flex items-center mb-2 mt-4">
             <FaGraduationCap className="text-purple-500 w-5 h-5" />
