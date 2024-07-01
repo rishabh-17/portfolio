@@ -1,6 +1,7 @@
 import React from "react";
 import CountUp from "react-countup";
 import { FaCode, FaStar, FaHackerrank } from "react-icons/fa";
+import { MdVerifiedUser } from "react-icons/md";
 
 export default function NumberCards() {
   return (
@@ -46,8 +47,8 @@ export default function NumberCards() {
             </span>
           </div>
           <div className="flex items-center justify-center bg-transparent w-40 text-white rounded-full border-2 border-[#28292b] p-1 mt-2">
-            svg
-            <span className="gradient-text">Experience</span>
+            <MdVerifiedUser className="w-4 h-4 text-purple-500" />
+            <span className="gradient-text ml-1">Experience</span>
           </div>
         </div>
       </div>
