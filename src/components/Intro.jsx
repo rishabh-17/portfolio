@@ -6,6 +6,7 @@ import { FaLocationDot } from "react-icons/fa6";
 import { GrLanguage } from "react-icons/gr";
 import { CiClock2 } from "react-icons/ci";
 import { MdOutlineWork } from "react-icons/md";
+import { TypeAnimation } from "react-type-animation";
 import { RiMedalFill } from "react-icons/ri";
 import { AiFillMessage } from "react-icons/ai";
 import { BiSolidPhoneCall } from "react-icons/bi";
@@ -42,7 +43,46 @@ export default function Intro() {
                   I am a{" "}
                   <span className="relative text-primary font-bold">
                     <span className="w-full h-full text-left">
-                      <span className="w-full text-purple-500">designer</span>
+                      <span className="w-full text-purple-500">
+                        <TypeAnimation
+                          className="text-purple-500 text-md"
+                          sequence={[
+                            1000,
+                            "Web Developer",
+                            1000,
+                            "Designer",
+                            1000,
+                            "Software Engineer",
+                            1000,
+                            "MERN Developer",
+                            1000,
+                            "Full Stack Developer",
+                            1000,
+                            "Python Developer",
+                            1000,
+                            "React Developer",
+                            1000,
+                            "Node Developer",
+                            1000,
+                            "Frontend Developer",
+                            1000,
+                            "Backend Developer",
+                            1000,
+                            "React Native Developer",
+                            1000,
+                            "Android Developer",
+                            1000,
+                          ]}
+                          wrapper="span"
+                          speed={50}
+                          // style={{
+                          //   fontSize: "3em",
+                          //   display: "inline-block",
+                          //   color: "white",
+                          // }}
+                          repeat={Infinity}
+                        />
+                      </span>
                     </span>
                   </span>
                 </span>
