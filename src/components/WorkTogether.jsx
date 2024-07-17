@@ -23,8 +23,8 @@ export default function WorkTogether() {
               }}
             ></div>
             <span className="relative z-10 flex items-center">
-              <AiFillMessage className="w-5 h-5 mr-2 text-purple-500" /> Contact
-              Me
+              <AiFillMessage className="w-5 h-5 mr-2 text-purple-500" /> <a href="tel:+918770739976" > Contact
+              Me </a>
             </span>
           </button>
           <button className="w-full bg-[#28292b] border border-gray-600 text-white py-3 rounded-lg flex items-center justify-center relative overflow-hidden">

@@ -8,7 +8,7 @@ export default function SocialMedia() {
       <div className="fixed bottom-0 left-1/2 transform -translate-x-1/2 mx-auto flex h-16 items-end gap-4 rounded-t-2xl bg-[#121416] px-4 pb-2 border-2 border-[#28292b] z-50">
         <a
           className="aspect-square w-10 rounded-full bg-[#28292b] border border-gray-600 flex items-center justify-center p-2 transition ease-in-out delay-150 hover:-translate-y-3 hover:scale-125"
-          href="https://www.facebook.com"
+          href="https://www.linkedin.com/in/hrishabh2560/"
           target="_blank"
           rel="noopener noreferrer"
           style={{ width: "40px" }}
@@ -17,7 +17,7 @@ export default function SocialMedia() {
         </a>
         <a
           className="aspect-square w-10 rounded-full bg-[#28292b] border border-gray-600 flex items-center justify-center p-2 transition ease-in-out delay-150 hover:-translate-y-3 hover:scale-125"
-          href="https://www.twitter.com"
+          href="https://github.com/rishabh-17"
           target="_blank"
           rel="noopener noreferrer"
           style={{ width: "40px" }}
@@ -26,7 +26,7 @@ export default function SocialMedia() {
         </a>
         <a
           className="aspect-square w-10 rounded-full bg-[#28292b] border border-gray-600 flex items-center justify-center p-2 transition ease-in-out delay-150 hover:-translate-y-3 hover:scale-125"
-          href="https://www.instagram.com"
+          href="mailto:rishabh2560@gmail.com"
           target="_blank"
           rel="noopener noreferrer"
           style={{ width: "40px" }}
@@ -35,7 +35,7 @@ export default function SocialMedia() {
         </a>
         <a
           className="aspect-square w-10 rounded-full bg-[#28292b] border border-gray-600 flex items-center justify-center p-2 transition ease-in-out delay-150 hover:-translate-y-3 hover:scale-125"
-          href="https://www.linkedin.com"
+          href="https://api.whatsapp.com/send?phone=918770739976"
           target="_blank"
           rel="noopener noreferrer"
         >
@@ -43,7 +43,7 @@ export default function SocialMedia() {
         </a>
         <a
           className="aspect-square w-10 rounded-full bg-[#28292b] border border-gray-600 flex items-center justify-center p-2 transition ease-in-out delay-150 hover:-translate-y-3 hover:scale-125"
-          href="https://www.youtube.com"
+          href="https://www.hackerrank.com/profile/rishabh2560"
           target="_blank"
           rel="noopener noreferrer"
           style={{ width: "40px" }}

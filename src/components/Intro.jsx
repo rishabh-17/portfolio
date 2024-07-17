@@ -140,7 +140,7 @@ export default function Intro() {
             </div>
           </div>
           <div className="flex gap-2 mb-4 w-full mt-4">
-            <button className="w-1/2 flex items-center justify-center px-4 py-3 border border-transparent text-sm font-medium rounded-md shadow-sm text-white bg-[#28292b] hover:bg-[#3a3b3c] z-40">
+            <a href="https://api.whatsapp.com/send?phone=918770739976" className="w-1/2 flex items-center justify-center px-4 py-3 border border-transparent text-sm font-medium rounded-md shadow-sm text-white bg-[#28292b] hover:bg-[#3a3b3c] z-40">
               <div className="flex items-center">
                 <div
                   title=""
@@ -159,8 +159,8 @@ export default function Intro() {
                 </div>
                 <span>Message Me</span>
               </div>
-            </button>
-            <button className="w-1/2 flex items-center justify-center px-4 py-2 border border-transparent text-sm font-medium rounded-md shadow-sm text-white bg-[#28292b] hover:bg-[#3a3b3c] z-40">
+            </a>
+            <a  href="tel:+918770739976" className="w-1/2 flex items-center justify-center px-4 py-2 border border-transparent text-sm font-medium rounded-md shadow-sm text-white bg-[#28292b] hover:bg-[#3a3b3c] z-40">
               <div className="flex items-center">
                 <div
                   title=""
@@ -179,7 +179,7 @@ export default function Intro() {
                 </div>
                 <span>Call Me</span>
               </div>
-            </button>
+            </a>
           </div>
         </div>
       </div>
