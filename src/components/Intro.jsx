@@ -1,6 +1,7 @@
 import React from "react";
 import photo from "../assets/hrishabh.jpg";
 import { IoMdDownload } from "react-icons/io";
+import cvPdf from "../assets/Hrishabh_Tiwari__CV.pdf";
 import { FaCircle, FaUserGraduate } from "react-icons/fa";
 import { FaLocationDot } from "react-icons/fa6";
 import { GrLanguage } from "react-icons/gr";
@@ -13,8 +14,8 @@ import { BiSolidPhoneCall } from "react-icons/bi";
 export default function Intro() {
   const handleDownload = () => {
     const link = document.createElement("a");
-    link.href = "../assets/Hrishabh_Tiwari.pdf";
-    link.download = "Hrishabh_Tiwari.pdf";
+    link.href = cvPdf;
+    link.download = "Hrishabh_Tiwari__CV.pdf";
     document.body.appendChild(link);
     link.click();
     document.body.removeChild(link);
@@ -160,7 +161,7 @@ export default function Intro() {
                 <span>Message Me</span>
               </div>
             </a>
-            <a  href="tel:+918770739976" className="w-1/2 flex items-center justify-center px-4 py-2 border border-transparent text-sm font-medium rounded-md shadow-sm text-white bg-[#28292b] hover:bg-[#3a3b3c] z-40">
+            <a href="tel:+918770739976" className="w-1/2 flex items-center justify-center px-4 py-2 border border-transparent text-sm font-medium rounded-md shadow-sm text-white bg-[#28292b] hover:bg-[#3a3b3c] z-40">
               <div className="flex items-center">
                 <div
                   title=""
