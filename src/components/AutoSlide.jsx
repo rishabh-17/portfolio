@@ -41,7 +41,7 @@ const Carousel = ({ items }) => {
                     <FaLinkedin className="text-purple-500" />
                   </a>
                 </div>
-                <p>Software Engineer</p>
+                <p>{item.role}</p>
                 <p>{item.year}</p>
               </div>
               <div className="col-span-2 overflow-auto mt-3 text-sm">

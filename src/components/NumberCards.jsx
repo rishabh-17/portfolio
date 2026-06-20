@@ -24,15 +24,12 @@ export default function NumberCards() {
         <div className="flex flex-col justify-center items-center h-full text-center">
           <div className="text-5xl font-bold mb-2 flex items-center gradient-text">
             <span>
-              <CountUp end={900} duration={4.75} />
-            </span>
-            <span className="ml-2 text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-purple-700">
-              +
+              <CountUp end={764} duration={4.75} />
             </span>
           </div>
           <div className="flex items-center justify-center bg-transparent w-40 text-white rounded-full border-2 border-[#28292b] p-1 mt-2">
             <FaCode className="w-4 h-4 text-purple-500" />
-            <span className="gradient-text ml-1">Code Force</span>
+            <span className="gradient-text ml-1">CodeKaze Rank</span>
           </div>
         </div>
       </div>
@@ -40,7 +37,7 @@ export default function NumberCards() {
         <div className="flex flex-col justify-center items-center h-full text-center">
           <div className="text-5xl font-bold mb-2 flex items-center gradient-text">
             <span>
-              <CountUp end={1} duration={4.75} />
+              <CountUp end={3} duration={4.75} />
             </span>
             <span className="ml-2 text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-purple-700">
               +
@@ -48,7 +45,7 @@ export default function NumberCards() {
           </div>
           <div className="flex items-center justify-center bg-transparent w-40 text-white rounded-full border-2 border-[#28292b] p-1 mt-2">
             <MdVerifiedUser className="w-4 h-4 text-purple-500" />
-            <span className="gradient-text ml-1">Experience</span>
+            <span className="gradient-text ml-1">Years Experience</span>
           </div>
         </div>
       </div>

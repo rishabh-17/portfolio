@@ -1,7 +1,7 @@
 import React from "react";
 import AutoSilde from "./AutoSlide";
+import KreeyaaLogo from "../assets/kreeyaa_logo.png";
 import AerosimpleLogo from "../assets/aerosimple.jpg";
-import { FaYammer } from "react-icons/fa";
 import avyaanLogo from "../assets/avyaan.jpg";
 import { FaGraduationCap } from "react-icons/fa6";
 
@@ -21,22 +21,31 @@ export default function Experience() {
             <AutoSilde
               items={[
                 {
+                  image: KreeyaaLogo,
+                  name: "Kreeyaa",
+                  role: "Senior Software Engineer",
+                  website: "https://jobs.qualifyde.com",
+                  linkedin: "https://www.linkedin.com/company/kreeyaa-technologies/",
+                  description: `Spearheaded the development of client-side architecture from the ground up, ensuring scalability and performance optimization. Led a developer team, fostering a collaborative environment, and provided hands-on training to enhance team skills. Partnered with business/sales to design customer-centric solutions driving revenue, contributed to mobile and AI/GenAI developments, and managed AWS infrastructure pipelines to streamline deployment.`,
+                  year: "Nov 2024 - Present",
+                },
+                {
                   image: AerosimpleLogo,
                   name: "Aerosimple",
                   role: "Software Engineer",
-                  website: "https://aerosimple.com",
+                  website: "https://us.aerosimple.com",
                   linkedin: "https://www.linkedin.com/company/aerosimple/",
-                  description: `At Aerosimple, a leading product-based company that digitalizes airport workflows, I worked as a Software Engineer (Full Stack). Utilizing React and Node.js, I developed robust and scalable web applications that enhanced airport operations. My role involved collaborating with cross-functional teams to deliver high-quality software, optimizing performance for a seamless user experience, and contributing to the successful deployment of features that significantly improved efficiency and user satisfaction in airport environments.`,
-                  year: "Aug 2023 - Present",
+                  description: `Directed a team of developers to architect and implement airport management software used by 100+ airports worldwide (including Washington Dulles and Denver International). Engineered responsive and intuitive web interfaces using React.js and RESTful APIs, partnering with UI/UX designers to translate wireframes into production-ready features while maintaining code quality via unit testing and version control.`,
+                  year: "Aug 2023 - Oct 2024",
                 },
                 {
                   image: avyaanLogo,
-                  name: "Avyaan",
+                  name: "Avyaan Management",
                   role: "Software Engineer",
                   website: "https://avyaanmanagement.com/",
                   linkedin: "https://www.linkedin.com/company/avyaanmgmt/",
-                  description: `At Avyaan Management, a dynamic management solutions firm, I worked as a Full Stack Developer. I implemented client-specific project architectures, developed internal tools and the company website, designed data models, database schemas, and API endpoints, and integrated React front-ends with Node.js back-ends. I ensured that all interfaces were responsive, visually appealing, and user-friendly. `,
-                  year: "Dec 2022 - jul 2023",
+                  description: `At Avyaan Management, a dynamic management solutions firm, I worked as a Full Stack Developer. I implemented client-specific project architectures, developed internal tools and the company website, designed data models, database schemas, and API endpoints, and integrated React front-ends with Node.js back-ends. I ensured that all interfaces were responsive, visually appealing, and user-friendly.`,
+                  year: "Dec 2022 - Jul 2023",
                 },
               ]}
             />

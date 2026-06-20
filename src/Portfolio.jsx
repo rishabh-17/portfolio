@@ -29,7 +29,7 @@ export default function Portfolio() {
               <MyProjects />
             </div>
             <div className="col-span-2 md:col-span-1">
-              <TechStack items={["HTML", "CSS", "JavaScript", "React"]} />
+              <TechStack />
             </div>
             <div>
               <Achivements />
@@ -39,7 +39,7 @@ export default function Portfolio() {
             </div>
           </div>
         </div>
-        {/* <div className="w-full text-white  mb-24">
+        <div className="w-full text-white flex justify-center my-8 p-4 bg-[#121416] rounded-xl border-2 border-[#28292b] overflow-x-auto">
           <GitHubCalendar
             username="rishabh-17"
             blockSize={15}
@@ -47,7 +47,7 @@ export default function Portfolio() {
             color="#c084f5"
             fontSize={16}
           />
-        </div> */}
+        </div>
         <SocialMedia />
       </main>
     </div>

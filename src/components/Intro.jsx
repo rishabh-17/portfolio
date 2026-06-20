@@ -115,7 +115,7 @@ export default function Intro() {
           <div className="bg-[#121412] border-2 border-[#28292b] rounded-lg w-full h-42 sm:h-24 p-4">
             <div className="flex flex-wrap gap-2">
               <div className="inline-flex items-center gap-x-1.5 rounded-full px-4 py-1 text-xs font-medium text-white bg-[#28292b]">
-                <FaLocationDot className="w-3 h-3 text-purple-500" /> India
+                <FaLocationDot className="w-3 h-3 text-purple-500" /> Hyderabad, India
               </div>
               <div className="inline-flex items-center gap-x-1.5 rounded-full px-4 py-1 text-xs font-medium text-white bg-[#28292b]">
                 <GrLanguage className="w-3 h-3 text-purple-500" /> Hindi &amp;
